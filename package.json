@@ -4,7 +4,7 @@
   "description": "",
   "main": "a.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "grunt lint && grunt unitTest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "grunt": "^1.1.0",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^22.0.0",
-    "grunt-htmlhint": "^0.9.13"
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^1.2.0"
   }
 }
